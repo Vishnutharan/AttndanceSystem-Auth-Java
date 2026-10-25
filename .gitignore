@@ -1,0 +1,40 @@
+# Build output
+target/
+build/
+out/
+bin/
+*.class
+
+# Maven wrapper jar is downloaded on demand
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
+logs/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+nbproject/private/
+.sts4-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
